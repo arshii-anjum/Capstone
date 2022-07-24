@@ -366,10 +366,9 @@ null.style.background_gradient(cmap='viridis',low =0.5,high=0.2)
 
 
 # The missing values are columns - 
-# 
-# * PH - 14.98%                 |   7.0367 (median) 7.0737 (mean)
-# * Sulphate - 23.84%           |   331.8381 (median) 332.5670 (mean)
-# * Trihalomethanes - 4.94%     |   66.6782 (median) 66.5397 (mean)
+# * PH - 14.98% | 7.0367 (median) 7.0807 (mean)
+# * Sulphate - 23.84% | 333.0735 (median) 333.7757 (mean)
+# * Trihalomethanes - 4.94% | 66.6224 (median) 66.3962 (mean)
 # 
 # As our dataset is small, it might not be a good idea to drop all the missing value columns. Also, We see that the difference between mean and median values is small. Hence, we can use the overall median of the feature to impute values and fill the missing data.
 # 
