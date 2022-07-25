@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import numpy as np 
-import joblib
 from sklearn.svm import SVC, LinearSVC
 
 st.title("IS YOUR WATER POTABLE?")
