@@ -4,9 +4,9 @@
 ## ABOUT PROJECT 
 The goal of this project is to perform exploratory data analytics and machine learning prediction analytics on a variety of water quality indicators, such as pH, hardness, carbon, solids etc. The aim of this study is the prediction of water potability using machine learning algorithms including Logistic regression, SVM, Decision tree, Adaboost classifier, K-neighbors, XGB, and random forest and finally using the most accurate model to use for future predictions. The significant sources of water contamination can be determined using various factors and the findings may serve as useful predictors for evaluating if the water quality is fit for human consumption. This analysis will provide us the following outcomes – 
 
-	Predict whether the water quality is feasible for human consumption.
-	Anticipate the relevant measures to be taken if the water is contaminated.
-	Find features that contribute the most for water to be potable. 
+	1. Predict whether the water quality is feasible for human consumption.
+	2. Anticipate the relevant measures to be taken if the water is contaminated.
+	3. Find features that contribute the most for water to be potable. 
 
 
 ## GETTING STARTED 
@@ -45,6 +45,9 @@ To run this code you would need the following packages. You can install the pack
 	from IPython.display import IFrame
 	from sklearn import metrics
 	from sklearn.neighbors import LocalOutlierFactor
+	
+#### Streamlit Application: 
+Using streamlit, we build an app to provide an interface to predict whether the water is potable and safe for human consumption. This will help any person to enter the values and receive an output without knowing the technical part of the backend. We have used the SVM algorithm for modeling and providing outputs on this interface. The files used for this app have been saved on github repo.
 
 ### UPDATED
 15-11-2022
